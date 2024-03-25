@@ -6,9 +6,10 @@ file { 'etc/ssh/ssh_config':
 
 content =>"
 
-	SSH client configuration
+	#SSH client configuration
 	host*
 	IdentityFile ~/.ssh/school
 	PasswordAuthentification no
+	",
 
 }
